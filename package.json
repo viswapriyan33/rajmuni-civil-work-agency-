@@ -1,0 +1,38 @@
+{
+  "name": "rajmuni-civil",
+  "version": "1.0.0",
+  "description": "Rajmuni Civil PDF & Home Renovation Portal connected to PostgreSQL rajmuni_civil_pdf",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node src/server.js",
+    "test-db": "node src/test-db.js"
+  },
+  "keywords": [
+    "react",
+    "postgresql",
+    "express",
+    "rajmuni-civil",
+    "renovation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "html2pdf.js": "^0.14.0",
+    "lucide-react": "^1.31.0",
+    "pg": "^8.13.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.4",
+    "nodemon": "^3.1.9",
+    "vite": "^8.2.1"
+  }
+}
